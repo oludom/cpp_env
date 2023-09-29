@@ -1,6 +1,6 @@
 FROM gcc:13.2.0
 
-RUN apt-get update && apt-get install -y cmake gdb \
+RUN apt-get update && apt-get install -y cmake gdb clang-format \
     && rm -rf /var/lib/apt/lists/*
 
 # RUN apt-get update && apt-get install -y \
