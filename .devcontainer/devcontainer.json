@@ -1,0 +1,26 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+			"WORKSPACE": "${containerWorkspaceFolder}"
+		}
+    },
+    "remoteUser": "bent",
+    "runArgs": [
+		"--cap-add=SYS_PTRACE",
+		"--security-opt=seccomp:unconfined",
+		"--security-opt=apparmor:unconfined"
+	],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cmake-tools",
+                "vadimcn.vscode-lldb",
+                "cheshirekow.cmake-format",
+                "ms-vsliveshare.vsliveshare",
+                "coolchyni.beyond-debug"
+            ]
+        }
+    }
+}
