@@ -1,0 +1,3 @@
+[submodule "uunit"]
+	path = 3rdparty/uunit
+	url = http://cgit.drumgizmo.org/uunit.git/

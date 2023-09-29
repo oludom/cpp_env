@@ -1,0 +1,14 @@
+µUnit (micro-unit) is a minimalistic, header only, unit-test framework for C++.
+
+For an example of how to use it with a simple Makefile project see the examples
+folder.
+
+It outputs CppUnit compatible xml and can be used with for example the xUnit
+plugin for jenkins.
+
+µUnit was originally developed by Bent Bisballe Nyeng for the DrumGizmo project
+under the name dgUnit but has since then changed name and moved into its own
+project for easier re-use in other C++ projects.
+
+µUnit is released under the CC0-1.0 license. See the CC0-1.0 file for further
+details.
